@@ -13,7 +13,7 @@ exports.handler = async function(event) {
         "Content-Type": "application/json"
       },
       body: JSON.stringify({
-        model: "meta-llama/llama-3-8b-instruct:free",
+        model: "mistralai/mistral-7b-instruct",
         messages: [
           {
             role: "user",
